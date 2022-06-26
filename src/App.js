@@ -9,6 +9,7 @@ import Project from './pages/Project/Project';
 import Create from './pages/Create/Create';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <div class="container">
+          <Navbar />
           <Switch>
             <Route exact path ="/">
               <Dashboard />
